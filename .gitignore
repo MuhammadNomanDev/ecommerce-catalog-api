@@ -1,0 +1,24 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.rsuser
+.idea/
+
+## Environment / secrets — NEVER commit these
+appsettings.Development.json
+.env
+*.pfx
+
+## Build output
+publish/
+artifacts/
+
+## Test results
+TestResults/
+coverage/
+
+## Docker
+.dockerignore
